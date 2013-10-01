@@ -18,4 +18,9 @@ class CustomTest < ActionDispatch::IntegrationTest
   	assert_response :success
   end
 
+  test "that we can get a person's profile page" do
+    get '/jimmypoop'
+    assert_response :success
+  end
+
 end

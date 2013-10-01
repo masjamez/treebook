@@ -3,3 +3,9 @@ jason:
  last_name: "Seifer"
  email: "jason@pooh.com"
  profile_name:  "jasonseifer"
+
+jimmy:
+ first_name: "Jimmy"
+ last_name: "Pooh"
+ email: "jimmy@pooh.com"
+ profile_name: "jimmypoop"
