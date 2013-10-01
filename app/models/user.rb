@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
   validates :profile_name, presence: true,
                            uniqueness: true,
                            format: {
-                           	with: /\A(?=.*[a-z])[a-z\d]+\Z/i,
+                           	with: /^[a-zA-Z0-9_-]+$/,
                            	message: 'Must be formatted correctly.'
                            }
 
