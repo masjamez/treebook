@@ -9,3 +9,10 @@ jimmy:
  last_name: "Pooh"
  email: "jimmy@pooh.com"
  profile_name: "jimmypoop"
+
+mike:
+ first_name: "Mike"
+ last_name: "Frog"
+ email: "mike@pooh.com"
+ profile_name: "mikethefrog"
+
